@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([HomeSeeder::class]);
         $this->call([SuplierSeeder::class]);
+        $this->call([PelangganSeeder::class]);
 
         // \App\Models\User::factory(10)->create();
     }
