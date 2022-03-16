@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
+
 class HomeSeeder extends Seeder
 {
     /**
@@ -13,6 +14,6 @@ class HomeSeeder extends Seeder
      */
     public function run()
     {
-        //
+       //
     }
 }

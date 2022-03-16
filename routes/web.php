@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SuplierController;
 
 
 /*
@@ -18,3 +19,4 @@ use App\Http\Controllers\HomeController;
 // Route::get('/',function (){return view('index');});
 
 Route::get('/',[HomeController::class, 'index']);
+Route::get('/suplier',[SuplierController::class, 'index'])->name('suplier');
