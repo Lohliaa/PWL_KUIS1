@@ -29,8 +29,19 @@
                             <li class="nav-item">
                                <a class="nav-link" href="#contact">Contact us</a>
                             </li>
+                            <div class="btn-group">
+                              <div class="btn-group">
+                                 <button type="button" class="btn btn-secondary dropdown-toggle bg-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   INFO
+                                 </button>
+                                 <div class="dropdown-menu">
+                                   <a class="dropdown-item" href="#">BARANG</a>
+                                   <a class="dropdown-item" href="#">CUSTOMER</a>
+                                   <a class="dropdown-item" href="#">PEGAWAI</a>
+                                   <a class="dropdown-item" href="#">SUPPLIER</a>
+                                 </div>
+                              </div>
                          </ul>
-                         <div class="sign_btn"><a href="#">Sign in</a></div>
                       </div>
                    </nav>
                 </div>
