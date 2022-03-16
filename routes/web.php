@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SuplierController;
+use App\Http\Controllers\PelangganController;
 
 
 /*
@@ -20,3 +21,4 @@ use App\Http\Controllers\SuplierController;
 
 Route::get('/',[HomeController::class, 'index']);
 Route::get('/suplier',[SuplierController::class, 'index'])->name('suplier');
+Route::get('/pelanggan',[PelangganController::class, 'index'])->name('pelanggan');
