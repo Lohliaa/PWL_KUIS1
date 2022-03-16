@@ -14,7 +14,7 @@
                     <tr>
                       <th>Nomor</th>
                       <th>Nama Perusahaan/Perorangan</th>
-                      <th>Gambar</th>
+                      <th>Logo</th>
                       <th>Alamat</th>
                       <th>Telepon</th>
                     </tr>
