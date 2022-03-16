@@ -15,6 +15,8 @@ class CreateHomeTable extends Migration
     {
         Schema::create('home', function (Blueprint $table) {
             $table->id();
+            $table->string('nama_laptop',50);
+            $table->string('spesifikasi',250);
             $table->timestamps();
         });
     }
