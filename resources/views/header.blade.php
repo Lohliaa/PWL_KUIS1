@@ -38,7 +38,7 @@
                                    <a class="dropdown-item" href="#">BARANG</a>
                                    <a class="dropdown-item" href="#">CUSTOMER</a>
                                    <a class="dropdown-item" href="#">PEGAWAI</a>
-                                   <a class="dropdown-item" href="#">SUPPLIER</a>
+                                   <a class="dropdown-item" href="suplier">SUPPLIER</a>
                                  </div>
                               </div>
                          </ul>
