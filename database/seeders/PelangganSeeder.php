@@ -33,7 +33,19 @@ class PelangganSeeder extends Seeder
                     'gambar' => 'QT.jpg',
                     'alamat' => 'Kompleks Taman Semanan Indah, Plaza Delumina, Blok B, No.18, Jakarta Barat, DKI Jakarta, Indonesia',
                     'telepon' => '(+62)21999820023'
-            ]
+            ],
+            [
+                'nama' => 'CV Kreasi Teknologi Nusantara',
+                'gambar' => 'kreasi.png',
+                'alamat' => 'Jalan Apel Raya Blok Perumnas No. 52, Kel. Sukamelang, Kec. Subang, Kab. Subang, Subang, Jawa Barat, Indonesia',
+                'telepon' => '(+62)81999012212'
+            ],
+        [
+            'nama' => 'CV Energi Digital Teknologi',
+            'gambar' => 'energi.png',
+            'alamat' => 'Graha Mampang LT.3 Suite 305, Jakarta Selatan, DKI Jakarta, Indonesia',
+            'telepon' => '(+62)21001265655'
+    ]
         ]);
     }
 }
