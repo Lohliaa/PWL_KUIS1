@@ -24,11 +24,11 @@
                 
                     @foreach ($Pelanggan as $p)
                           <tr>
-                          <td>{{$p->id}}</td>
-                          <td>{{$p->nama}}</td>
-                          <td><img height="80" width="160" src="{{asset('images/'.$p->gambar)}}"></td>
-                          <td>{{$p->alamat}}</td>  
-                          <td>{{$p->telepon}}</td>         
+                            <td>{{ $p->id }}</d>
+                            <td>{{ $p->nama }}</d>
+                            <td><img height="80" width="160" src="{{asset('images/'.$p->gambar)}}"></td>
+                            <td>{{ $p->alamat }}</d>
+                            <td>{{ $p->telepon }}</d>
                           </tr> 
                     @endforeach
                     
@@ -36,7 +36,12 @@
 
               </table>
               <br><br>
-          </div>
+              Halaman : {{ $Pelanggan->currentPage() }} <br>
+              Jumlah Data : {{ $Pelanggan->total() }} <br>
+              Data Per Halaman : {{ $Pelanggan->perPage() }}
+
+              {{ $Pelanggan->links() }}
+            </div>
       </div>
     </div>
   </div>
