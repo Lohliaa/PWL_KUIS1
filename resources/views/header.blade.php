@@ -35,9 +35,9 @@
                                    INFO
                                  </button>
                                  <div class="dropdown-menu">
-                                   <a class="dropdown-item" href="#">BARANG</a>
+                                   <a class="dropdown-item" href="barang">BARANG</a>
                                    <a class="dropdown-item" href="pelanggan">CUSTOMER</a>
-                                   <a class="dropdown-item" href="#">PEGAWAI</a>
+                                   <a class="dropdown-item" href="pegawai">PEGAWAI</a>
                                    <a class="dropdown-item" href="suplier">SUPPLIER</a>
                                  </div>
                               </div>
