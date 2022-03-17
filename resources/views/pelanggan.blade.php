@@ -24,11 +24,11 @@
                 
                     @foreach ($Pelanggan as $p)
                           <tr>
-                            <td>{{ $p->id }}</d>
-                            <td>{{ $p->nama }}</d>
+                            <td>{{ $p->id }}</td>
+                            <td>{{ $p->nama }}</td>
                             <td><img height="80" width="160" src="{{asset('images/'.$p->gambar)}}"></td>
-                            <td>{{ $p->alamat }}</d>
-                            <td>{{ $p->telepon }}</d>
+                            <td>{{ $p->alamat }}</td>
+                            <td>{{ $p->telepon }}</td>
                           </tr> 
                     @endforeach
                     
