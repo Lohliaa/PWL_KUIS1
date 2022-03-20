@@ -22,8 +22,8 @@ use App\Http\Controllers\PegawaiController;
 // Route::get('/',function (){return view('index');});
 
 Route::get('/',[HomeController::class, 'index']);
-Route::get('/suplier',[SuplierController::class, 'index'])->name('suplier');
-Route::get('/pelanggan',[PelangganController::class, 'index'])->name('pelanggan');
+Route::get('/suplier',[SuplierController::class, 'suplier'])->name('suplier');
+Route::get('/pelanggan',[PelangganController::class, 'pelanggan'])->name('pelanggan');
 // -------------------------------------------------------------------------------//
-Route::get('/barang',[BarangController::class, 'index'])->name('barang');
-Route::get('/pegawai',[PegawaiController::class, 'index'])->name('pegawai');
+Route::get('/barang',[BarangController::class, 'barang'])->name('barang');
+Route::get('/pegawai',[PegawaiController::class, 'pegawai'])->name('pegawai');

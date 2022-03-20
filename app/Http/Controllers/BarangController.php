@@ -8,7 +8,7 @@ use App\Models\Barang;
 
 class BarangController extends Controller
 {
-    public function index(){
+    public function barang(){
         $barang = Barang::paginate(7);
         return view('barang')
         ->with('title','Barang')

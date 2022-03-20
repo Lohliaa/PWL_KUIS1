@@ -8,7 +8,7 @@ use App\Models\Pegawai;
 
 class PegawaiController extends Controller
 {
-    public function index(){
+    public function pegawai(){
         $pegawai = Pegawai::paginate(3);
         return view('pegawai')
         ->with('title','Pegawai')

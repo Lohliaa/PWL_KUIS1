@@ -8,7 +8,7 @@ use App\Models\Pelanggan;
 
 class PelangganController extends Controller
 {
-    public function index(){
+    public function pelanggan(){
         
         $pelanggan = Pelanggan::paginate(5);
         return view('pelanggan')
