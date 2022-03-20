@@ -9,7 +9,7 @@ use App\Models\Barang;
 class BarangController extends Controller
 {
     public function barang(){
-        $barang = Barang::paginate(7);
+        $barang = Barang::paginate(4);
         return view('barang')
         ->with('title','Barang')
         ->with('Barang',$barang);
