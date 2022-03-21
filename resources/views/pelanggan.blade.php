@@ -13,6 +13,8 @@
                   <thead style="color:white" bgcolor="black">
                     <tr>
                       <th>Nomor</th>
+                      <th>Nama Pembeli</th>
+                      <th>Jenis Kelamin</th>
                       <th>Nama Perusahaan/Perorangan</th>
                       <th>Logo</th>
                       <th>Alamat</th>
@@ -25,6 +27,8 @@
                     @foreach ($Pelanggan as $p)
                           <tr>
                             <td>{{ $p->id }}</td>
+                            <td>{{ $p->nama_pembeli }}</td>
+                            <td>{{ $p->jenis_kelamin }}</td>
                             <td>{{ $p->nama }}</td>
                             <td><img height="80" width="160" src="{{asset('images/'.$p->gambar)}}"></td>
                             <td>{{ $p->alamat }}</td>
